@@ -1,0 +1,9 @@
+Đề tài môn tính toán thông minh:
+Đề tài
+Particle Swarm Optimization for Benchmark Function Optimization
+Hướng dẫn
+Chọn hàm chuẩn như Rastrigin hoặc Sphere. Khởi tạo đàn hạt với vị trí và vận tốc ngẫu nhiên trong không gian tìm kiếm. Cập nhật vị trí bằng công thức PSO: vận tốc = wvận tốc + c1r1*(pbest - pos) + c2r2(gbest - pos), sau đó pos += vận tốc. Đặt tham số (ví dụ: kích thước đàn 30, lặp 1000 lần, w=0.7, c1=c2=1.5). Vẽ đường cong hội tụ và so sánh với các bộ tối ưu hóa khác.
+Tài liệu tham khảo 1 
+Bài viết Medium với triển khai Python cho đường đi ngắn nhất trong đồ thị: https://medium.com/@abdallahashraf90/ant-colony-optimization-algorithm-for-shortest-path-problem-in-graph-3b5e9a4f8d2a
+Tài liệu tham khảo 1
+Gói GitHub cho ACO đường đi ngắn nhất trong đồ thị: https://github.com/vasilibotnaru/ant-colony-optimization
